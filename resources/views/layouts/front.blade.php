@@ -2,9 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/1.png')}}" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('assets/css/global.min.css')}}">
@@ -51,7 +49,17 @@
                      });
     </script>
     <title>@yield('PageTitle') | {{config('app.name')}}</title>
-    <meta name="generator" content="SEOmatic">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta name="description"
+        content="We are a conservation organization that works through partnering and collaborating with youths to innovate and implement creative solutions against climate change and environmental degradation.">
+    <meta name="robots" content="all">
+    <meta name="keywords" content="climate change, environment, climate action, environmental degradation, youths,waste management, conservation, preservation, volunteer, waste, disposal">
+    <meta content="en_US">
+
+    {{--<meta name="generator" content="SEOmatic">
     <meta name="keywords"
         content="payments, africa, nigeria, ghana, fintech, tech in africa, ussd, mobile money, pos, paystack">
     <meta name="description"
@@ -92,7 +100,7 @@
     <meta name="twitter:image:width" content="1024">
     <meta name="twitter:image:height" content="512">
     <meta name="twitter:image:alt"
-        content="An image of the Paystack logo - four blue stripes, 3 long and 1 short - in the shape of a P, against a dark blue (almost black) background">
+        content="An image of the Paystack logo - four blue stripes, 3 long and 1 short - in the shape of a P, against a dark blue (almost black) background">--}}
     <link href="https://paystack.com/" rel="canonical">
     <link href="https://paystack.com/" rel="home">
     <link type="text/plain" href="https://paystack.com/humans.txt" rel="author">

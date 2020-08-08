@@ -2,9 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta name="description"
+        content="We are a conservation organization that works through partnering and collaborating with youths to innovate and implement creative solutions against climate change and environmental degradation.">
+    <meta name="robots" content="all">
+    <meta name="keywords" content="climate change, environment, climate action, environmental degradation, youths,waste management, conservation, preservation, volunteer, waste, disposal">
+    <meta content="en_US">
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/1.png')}}" />
     <title>Post | YW4CA</title>
 
@@ -109,7 +115,7 @@
                 </figure>
 
                
-                <div class="shareable-takeaway-wrap shareable-takeaway-wrap--blue">
+                <!--<div class="shareable-takeaway-wrap shareable-takeaway-wrap--blue">
                     <div class="shareable-takeaway">
                         <div class="shareable-takeaway__header">
                             <div class="shareable-takeaway__title">Shareable Takeaway</div>
@@ -136,7 +142,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
                 {{--<h2>Managing Webhooks</h2>
                 <p>Whenever actions are carried out on your Paystack account, we trigger events which your

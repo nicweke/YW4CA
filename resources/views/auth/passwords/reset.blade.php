@@ -87,8 +87,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Authentication forms">
     <meta name="author" content="nicwek">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon/1.png')}}" />
 
-    <title>Forny</title>
+    <title>Reset | YW4CA</title>
     <link href="{{asset('assets/css/register/bootstrap.min.css')}}" rel="stylesheet">
     <link href="{{asset('assets/css/register/common.css')}}" rel="stylesheet">
 
@@ -254,12 +255,12 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="reset-confirmation d-none">
+                        <!--<div class="reset-confirmation d-none">
                             <h4 class="mb-5">Link was sent</h4>
                             <div>
                                 Please, check your inbox for a password reset link.
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="right-pane">
